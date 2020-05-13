@@ -1,0 +1,89 @@
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    color: #0B0565;
+}
+
+.row-table {
+    margin-top: 50px;
+}
+
+
+/* pre-diseño */
+
+.title {
+    text-align: center;
+    font-weight: 900;
+}
+
+.table-1 {
+    border: 1px solid #bbbbbb;
+    box-shadow: 0px 3px 4px 1px #bbbbbb;
+}
+
+.table-header {
+    padding: 0;
+    background-color: #581b98;
+}
+
+
+/* diseño-celdas-headers */
+
+.table-header>th {
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    width: auto;
+    max-width: 120px;
+    min-width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.table-header>th:last-child {
+    padding-right: 35px;
+}
+
+
+/* diseño-celdas-info */
+
+td {
+    padding: 10px 0 10px 17px;
+    font-weight: 400;
+    width: auto;
+    max-width: 120px;
+    min-width: 20px;
+    margin-left: 25px;
+    max-height: 50px;
+}
+
+tr:hover:not(.table-header) {
+    color: #000;
+    cursor: pointer;
+}
+
+.table-row {
+    background-color: #fff;
+}
+
+.table-row-2 {
+    background-color: #eccbff;
+}
+
+.table-row:hover,
+.table-row-2:hover {
+    background-color: #faee1c;
+}
+
+
+/* diseño-celdas-especificas */
+
+.table-row:hover .email,
+.table-row-2:hover .email {
+    color: #581b98;
+}

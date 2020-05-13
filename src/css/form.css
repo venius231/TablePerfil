@@ -1,0 +1,50 @@
+.agregando {
+    color: #581b98;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.contenedor-form {
+    border-radius: 20px;
+}
+
+.contenedor-form:before {
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    top: -15px;
+    left: -15px;
+    width: 106%;
+    height: 605px;
+    background-image: linear-gradient(#ff5d98, #bb4570);
+    z-index: -1;
+}
+
+.btn-purple {
+    background: #581b98;
+    color: #faee1c;
+    font-size: x-large;
+}
+
+.btn-purple:hover {
+    background-color: #4d1985;
+    color: #ebe01b;
+}
+
+.close {
+    color: #581b98;
+}
+
+label {
+    color: #9c1de7;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
